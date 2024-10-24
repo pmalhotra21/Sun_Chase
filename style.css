@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: url('https://simraonvarma.wordpress.com/wp-content/uploads/2017/07/a-sky-full-of-stars.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#game-area {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 20px auto;
+}
+
+/* Earth Image */
+#earth {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  cursor: grab;
+}
+
+/* Sun Area */
+#sun {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  color: orange;
+  font-size: 1.5rem;
+  line-height: 150px;
+  text-align: center;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+}
+
+#sun.success {
+  background-color: lightgreen;
+}
+
+#sun:hover {
+  background-color: orange;
+}
